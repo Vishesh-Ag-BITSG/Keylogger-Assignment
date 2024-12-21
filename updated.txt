@@ -1,0 +1,9 @@
+2024-12-21_12:57:00: [Mouse Pressed][pynput_logger.py - Visual Studio Code] Button.left at (1715, 1569)
+2024-12-21_12:57:00: [Mouse Released][] Button.left at (1715, 1569)
+2024-12-21_12:57:02: [Mouse Pressed][WhatsApp] Button.left at (1152, 1468)
+2024-12-21_12:57:02: [Mouse Released][WhatsApp] Button.left at (761, 1468)
+2024-12-21_12:57:03: [Key Pressed][WhatsApp] 's'
+2024-12-21_12:57:03: [Key Released][WhatsApp] 's'
+2024-12-21_12:57:03: [Key Pressed][WhatsApp] 'e'
+2024-12-21_12:57:03: [Key Released][WhatsApp] 'e'
+2024-12-21_12:57:03: [Key Pressed][WhatsApp] 'h'
