@@ -133,3 +133,8 @@ sudo pip3 install --force-reinstall keyboard
 ## Exit Instructions
 - Workspace Logger: Press 'Esc' to stop
 - System Logger: Press 'Esc' to stop
+
+
+## New Features ADDED : 
+- MOUSE CLICK Logging along with the co-ordinates of the mouse pointer
+- Active Window tracking
